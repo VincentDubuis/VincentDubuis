@@ -28,15 +28,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       <p>
         Ce site a pour but de vous parler des dernières nouveautés sur les sujets qui m'intéresse dans le cadre du cours Laboratoire en Veille Technologique de la Haute École d'Ingénieur et de Gestion d'Yverdon-les-Bains
       </p>
-      {
-        // only display if at least one social link is enabled
-        socialCount > 0 && (
-          <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
-            <Socials />
-          </div>
-        )
-      }
     </section>
 
     <Hr />
